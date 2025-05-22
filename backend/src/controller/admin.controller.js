@@ -89,3 +89,14 @@ export const createAlbum = async (req, res) => {
         res.status(500).json({ message: 'Internal server error' });
     }
 }
+
+export const deleteAlbum = async (req, res) => {
+    try {
+        const { id } = req.params;
+        await Album.findByIdAndDelete(id);
+        res.status(200).json({ message: 'Album deleted successfully' });
+    } catch (error) {
+        console.error('Error deleting album:', error);
+        res.status(500).json({ message: 'Internal server error' });
+    }
+}
