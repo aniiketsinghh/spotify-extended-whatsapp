@@ -9,8 +9,6 @@ const App = () => {
     <div className="bg-gray-900 text-red-500">
       Aniket's website
     </div>
-
-        
     <header>
       <SignedOut>
         <SignInButton />
@@ -19,8 +17,6 @@ const App = () => {
         <UserButton />
       </SignedIn>
     </header>
-  
-          <Button variant={"outline"}> click me!</Button>
     </>
   )
 }
