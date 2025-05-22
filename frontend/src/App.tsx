@@ -16,7 +16,10 @@ const App = () => {
       <SignedIn>
         <UserButton />
       </SignedIn>
+
     </header>
+
+    <Button>hello there!</Button>
     </>
   )
 }
