@@ -1,8 +1,9 @@
+import Topbar from "@/components/Topbar"
 
 const HomePage = () => {
   return (
     <div>
-      homepage.jsx
+      <Topbar/>
     </div>
   )
 }
