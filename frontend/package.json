@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@clerk/clerk-react": "^5.31.5",
+    "@radix-ui/react-scroll-area": "^1.2.9",
     "@radix-ui/react-slot": "^1.2.3",
     "axios": "^1.9.0",
     "class-variance-authority": "^0.7.1",
@@ -22,7 +23,8 @@
     "react-resizable-panels": "^3.0.2",
     "react-router": "^7.6.0",
     "tailwind-merge": "^3.3.0",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "zustand": "^5.0.5"
   },
   "devDependencies": {
     "@eslint/js": "^9.25.0",
